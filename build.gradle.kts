@@ -23,6 +23,7 @@ dependencies {
 	implementation("com.schibsted.spt.data:jslt:0.1.14")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation("org.mockito:mockito-junit-jupiter:5.15.2")
 
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
